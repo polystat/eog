@@ -22,7 +22,8 @@ in EOG language. For example, this is the input EO program:
 This is how a generated EOG program may look:
 
 ```
-1: a1 := D(x); ->2
+0: ->1;
+1: a1 := D(x); ->2;
 2: a2 := LT(a1, 0); ->3; ->4;
 3: CALL(print, "cold");
 4: CALL(print, "warm");
