@@ -110,10 +110,14 @@ The EOG-script of the `if` atom may look like this:
 
 ```
 @if(ρ, α0, α1):
-  x1 := ρ Dataized
-  x2 := α0 If x1
-  x3 := α1 Unless x1
-  Return x3
+  x1 := Dataized ρ
+  Jump #A If x1
+  x2 := α0
+  Jump #B
+  #A
+  x2 := α1
+  #B
+  Return x2
 ```
 
 There is also a Java API, which helps you read a file with EOG program
