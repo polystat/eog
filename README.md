@@ -9,7 +9,14 @@ This is a command line tool that takes a directory with
 (XML representation of [EO](https://www.eolang.org) programs)
 and produces a directory with `.eog` files, each of which is a textual
 representaiton of a [Control Flow Graph (CFG)](https://en.wikipedia.org/wiki/Control-flow_graph)
-in EOG language. For example, this is the input EO program:
+in **EOG language** (we invented it). Run it like this (download the latest version of the `eog.jar`
+JAR from [here](https://github.com/polystat/eog/releases)):
+
+```bash
+$ java -jar eog.jar --help
+```
+
+For example, this is the input EO program:
 
 ```
 [n] > fibo
