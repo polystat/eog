@@ -16,7 +16,7 @@ JAR from [here](https://github.com/polystat/eog/releases)):
 $ java -jar eog.jar --help
 ```
 
-For example, this is the input EO program:
+For example, this is an input EO program:
 
 ```
 [n] > fibo
@@ -28,7 +28,7 @@ For example, this is the input EO program:
       fibo (n.minus 2)
 ```
 
-This is how a generated EOG program may look (a very very early draft):
+This is how a generated EOG program may look (this is a very _early draft_!):
 
 ```
 @fibo(n):
