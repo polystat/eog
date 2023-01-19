@@ -19,7 +19,7 @@ in EOG language. For example, this is the input EO program:
     print "warm"
 ```
 
-This is how a generated EOG program may look:
+This is how a generated EOG program may look (a very very early draft):
 
 ```
 0: ->1;
