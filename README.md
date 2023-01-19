@@ -112,10 +112,10 @@ The EOG-script of the `if` atom may look like this:
 @if(ρ, α0, α1):
   x1 := Dataized ρ
   Jump #A If x1
-  x2 := α0
+  x2 := α1
   Jump #B
   #A
-  x2 := α1
+  x2 := α0
   #B
   Return x2
 ```
